@@ -1,0 +1,67 @@
+body  {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif
+}
+header {
+    background-image: url('../img/bg.png');
+    height: 1000px;
+}
+
+.header {
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 2.1px;
+    height: 80px;
+}
+.menu {
+    width: 80%;
+    margin: 0 auto;
+}
+.logo img {
+    margin-top: 10px;
+    width: 50px;
+    height: 50px;
+}
+.logo {
+    display: flex;
+    justify-content: space-between;
+}
+.logo p {
+    font-size: 18pt;
+    margin: -5px 5px;
+}
+li {
+    cursor: pointer;
+    padding: 5px;
+    display: inline-block;
+    color: #fff;
+    font-weight: bold;
+    font-size: 12pt;
+    line-height: 80px;
+    margin-right: 10px;
+}
+.op {
+    color: grey;
+}
+.menu {
+    display: flex;
+    justify-content: space-between
+}
+
+.contentHeader {
+    margin: 250px auto;
+    width: 1000px;
+    text-align: center;
+    color: #fff;
+    font-size: 30pt;
+}
+.contentHeader button {
+    border-radius: 30px;
+    background: rgb(88, 202, 88);
+    border: none;
+    font-size: 15pt;
+    padding: 15px 35px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
